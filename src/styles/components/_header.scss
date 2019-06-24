@@ -1,0 +1,39 @@
+.header {
+    background-color: #421f41;
+    color: #efbbff;
+    margin-bottom: .5rem;
+    padding: 1rem 0;
+    width: 100%;
+
+    @media (min-width: $iphone-six-breakpoint) {
+        margin-bottom: 1.5rem;
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        margin-bottom: 6rem;
+    }
+
+    &__container {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+
+        @media (min-width: $desktop-breakpoint) {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+    
+    &__title {
+        margin: 0;
+        font-size: 4rem;
+
+        @media (min-width: $desktop-breakpoint) {
+            font-size: 5rem;
+        }
+    }
+
+    &__subtitle {
+        font-size: 1.4rem;
+    }
+}

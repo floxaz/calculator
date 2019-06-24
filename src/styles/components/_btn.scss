@@ -1,0 +1,26 @@
+.btn {
+    border: 1px solid $colorScreen;
+    color: #fff;
+    font-weight: 300;
+    font-size: 4rem;
+    outline: none;
+    transition: transform .1s linear;
+    z-index: 100;
+
+    &:hover {
+        transform: scale(0.98) translateY(.2rem);
+        z-index: 99;
+    }
+
+    &--tool {
+        background-color: lighten($colorScreen, 10%);
+    }
+
+    &--operator {
+        background-color: $colorOperator;
+    }
+
+    &--number {
+        background-color: $colorNumber;
+    }
+}

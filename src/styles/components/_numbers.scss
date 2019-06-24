@@ -1,0 +1,13 @@
+.numbers {
+    grid-column: 1 / span 3;
+    grid-row: 3 / 7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+#zero {
+    grid-column: 1 / span 2;
+    text-align: left;
+    padding-left: 3.7rem;
+}

@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    width: initial;
+}
+
+body {
+    background-color: #4f334e;
+    font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+}

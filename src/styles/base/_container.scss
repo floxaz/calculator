@@ -1,0 +1,26 @@
+.container {
+    background-color: $colorScreen;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 8rem);
+    overflow: hidden;
+
+    @media (min-width: $iphone-six-breakpoint) {
+        grid-template-rows: repeat(6, 9.375rem);
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 40rem;
+        grid-template-rows: repeat(6, 10rem);
+    }
+}
+
+.global-container {
+    width: 100%;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 100%;
+    }
+}

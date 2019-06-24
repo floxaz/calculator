@@ -1,0 +1,20 @@
+.screen {
+    background-color: $colorScreen;
+    grid-column: 1 / span 4;
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: right;
+    padding: 0 .8rem;
+    line-height: 8rem;
+    overflow: scroll;
+
+    @media (min-width: $desktop-breakpoint) {
+        padding: 0 2rem;
+        line-height: 10rem;
+    }
+
+    @media (min-width: $iphone-six-breakpoint) {
+        line-height: 9.375rem;
+    }
+}
